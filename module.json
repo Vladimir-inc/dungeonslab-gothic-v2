@@ -78,6 +78,6 @@
     }
   ],
   "description": "This map pack is inspired by the haunting and enigmatic atmosphere of 'Curse of Strahd,' tailored for Dungeons and Dragons 5th Edition. Crafted with meticulous detail to enhance your gaming experience, this collection is intended solely for entertainment and personal use. All content is distributed freely, ensuring that every adventurer has access to the resources they need without any cost.",
-  "manifest": "https://raw.githubusercontent.com/Vladimir-inc/dungeonslab-gothic-v2/main/module.json",
+  "manifest": "https://github.com/Vladimir-inc/dungeonslab-gothic-v2/releases/download/v1.0.1/module.json",
   "download": "https://mega.nz/file/zngGUSJT#KFKvg5X7IvATWwmzVtBxwHlTkiJDbfjVtklM0xejMPI"
 }
