@@ -1,0 +1,83 @@
+{
+  "id": "dungeonslab-gothic-maps-pack",
+  "title": "DungeonsLAB Gothic Maps Pack",
+  "version": "1.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/main.css"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "levels",
+        "type": "module"
+      },
+      {
+        "id": "wall-height",
+        "type": "module"
+      },
+      {
+        "id": "item-piles",
+        "type": "module"
+      },
+      {
+        "id": "itemacro",
+        "type": "module"
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module"
+      },
+      {
+        "id": "smalltime",
+        "type": "module"
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Dungeons LAB",
+      "url": "https://www.patreon.com/Dungeons_LAB"
+    }
+  ],
+  "url": "https://www.patreon.com/Dungeons_LAB",
+  "packs": [
+    {
+      "name": "gothic-map-pack",
+      "label": "DungeonsLAB Gothic Map Pack",
+      "path": "packs/gothic-map-pack",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dungeons-lab-gothic-map-pack-system-agnostic",
+      "label": "Dungeons LAB Gothic Map Pack (system agnostic)",
+      "path": "packs/dungeons-lab-gothic-map-pack-system-agnostic",
+      "type": "Adventure",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "description": "This map pack is inspired by the haunting and enigmatic atmosphere of 'Curse of Strahd,' tailored for Dungeons and Dragons 5th Edition. Crafted with meticulous detail to enhance your gaming experience, this collection is intended solely for entertainment and personal use. All content is distributed freely, ensuring that every adventurer has access to the resources they need without any cost.",
+  "manifest": "https://raw.githubusercontent.com/Vladimir-inc/dungeonslab-gothic-v2/main/module.json",
+  "download": "https://mega.nz/file/zngGUSJT#KFKvg5X7IvATWwmzVtBxwHlTkiJDbfjVtklM0xejMPI"
+}
